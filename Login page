@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>
+log in page
+</title>
+<style>
+#wrap{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:100%;
+	height:100%;
+	filter:blur(100%);
+	background-color:rgba(1,1,1,0);
+}
+#lg-dt{
+height:400px;
+width:700px;
+z-index:3;
+background-color:rgba(255,255,255,0.25);
+box-shadow:1px 1px 1px 1px grey;
+
+}
+body{
+background-size:1700px;
+}
+h2{
+	background-color: dodgerblue;
+}
+.PASSWORD{
+	background:url(t.png) no-repeat #fff 1px 0.9px;
+}
+.field{ border: 1px;
+	padding: 6px 6px 6px 38px;
+}
+.USERID
+{
+	background:url(u.png) no-repeat #fff 4px 4px ;
+}
+
+}
+</style>
+</head>
+<body  background="a.jpg" >
+<div id="wrap">
+<br>
+<br>
+<br><h2><center><font face="verdana" color="white" size="25"><b>HOSPITAL MANAGEMENT SYSTEM</b></font></center></h2><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center><div id="lg-dt" >
+<h1 style="color:red"><font face="roman" color="dodgerblue"><b>SIGN IN</b></font></h1>
+<h1 style="color:dodgerblue" >
+<form><font face="verdana">USER ID</font>
+<br>
+<input field type="text" name="first name" required="required" class="field USERID" placeholder="enter your user id"><br><br>
+<font face="verdana">PASSWORD</font><br>
+<input field type="password" name="password" placeholder="enter your password" class="field password">
+<br><br>
+<button  onclick="window.location.href='homepage2.html'">login</form></h1>
+<br>
+
+<a href="forgot password.html"><h3 align="left"><font face="verdana" size="3"> forgot password</a></font></h3>
+</div></center>
+</div>
+</body>
+</html>
