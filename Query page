@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+	input{
+		width:250px;
+			height: 40px;
+			border: 3px solid black;
+			border-radius:20px;
+			box-shadow: 0 010px#666;
+			text-align: left;
+			display: inline-block;
+			vertical-align: middle; 
+			margin-left: 20px;
+	}
+	#example{
+		width:250px;
+			height: 80px;
+			border: 3px solid black;
+			border-radius:20px;
+			box-shadow: 0 010px#666;
+			text-align: left;
+			display: inline-block;
+			vertical-align: middle; 
+			margin-left: 20px;
+	}
+	#example1{
+		width:120px;
+			height: 40px;
+			border: 3px solid black;
+			border-radius:20px;
+			box-shadow: 0 010px#666;
+			text-align: left;
+			display: inline-block;
+			vertical-align: middle; 
+			margin-left: 20px;
+	</style>
+	<title>query</title>
+</head>
+<body background="17.jpg" style="background-size: cover;background-repeat: no-repeat;height:700">
+
+	<table width="500" height="700" style="margin-left:900px">
+		<tr  bgcolor="#FFB90F" height="60">
+			<th width="200"> <a href="https://www.facebook.com/Hospital-Link-Company-185574901457452/"><img src="18.png" width="25%"></a></th>
+			<th width="200"><a href="https://twitter.com/ChildrensPgh"><img src="22.png" width="25%"></a></th>
+			<th width="200"><a href="https://www.youtube.com/watch?v=prsRBW2yfUY"><img src="21.jpg" width="25%"></a></th>
+			<th width="200" style="font-size: 20px"><img src="23.png" width="25%"><u>18000-333-4343</th></u>
+		</tr>
+		<tr  bgcolor="#FFB90F">
+			<td colspan="4">
+				<h1><center>SEND US AN INQUIRY</h1></center>
+				<h4><center>Health support is just a click away</h4></center>
+				<hr width="400" size="1" color="white">
+				<center><form>
+				<input type="text" name="name" placeholder="Name*" required="required" size="50" width="50"><br><br>
+					<input type="email" name="email" placeholder="Email*" required="required"><br><br>
+					<input type="number" name="phone" placeholder="Phone*" required="required"><br><br>
+					<input type="text" name="country" placeholder="Country*" required="required"><br><br>
+					<input type="text" name="query" placeholder="Query*" required="required" id=example><br><br>
+					<input type="number" name="Type your code*" placeholder="Type your code"><input type="number" name="number" placeholder="6785" id=example1><br><br>
+					<input type="submit" value="Submit" id=example1>
+					</form></center>
+	</table>
+
+</body>
+</html>
