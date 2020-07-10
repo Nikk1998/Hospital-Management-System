@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	        #example{
+			width: 600px;
+			height: 500px;
+			border: 3px solid black;
+			border-radius:20px;
+			box-shadow: 0 010px#666;
+			text-align: left;
+			display: inline-block;
+			vertical-align: middle; 
+			margin-left: 20px;
+            background-color: rgba(255,255,255,0.5);
+		}
+		#example2{
+			width: 600px;
+			height: 500px;
+			border: 3px solid black;
+			border-radius:20px;
+			box-shadow: 0 010px#666;
+			text-align: left;
+			display: inline-block;
+			vertical-align: middle; 
+			margin-left: 20px;
+            background-color: rgba(255,255,255,0.5);
+		}
+		img{
+			border: 3px solid black;
+			border-radius:20px;
+			box-shadow: 0 010px#666;
+		}
+
+		
+	</style>
+	<title>about</title>
+
+</head>
+<body bgcolor="#FFB90F">
+	
+	<table width="1200" height="800">
+<tr>
+	<td colspan="3">
+		<fieldset id="example">
+			
+			<h1><center>About us</center></h1>
+	<p style="font-family: elephant; font-size: 20px">City Hospitals was the forerunner of integrated healthcare in Asia, as well as globally. Its presence encompasses over 10,000 beds across 64 hospitals, more than 2200 pharmacies, over 100 primary care & diagnostic clinics, 115 tele medicine units across 9 countries, health insurance services, global projects consultancy, 15 academic institutions and a Research Foundation with a focus on global clinical trials, epidemiological studies, stem-cell and genetic research.</p>
+</td>
+</fieldset>
+<td colspan="3">
+	<fieldset id="example2">
+		<h1><center>Gallery</center></h1>
+		<img src="16.jpg" width="600" >
+	</td>
+
+</fieldset>
+</tr>
+<tr height=50 style="font-size: 30px">
+	<th colspan="6">KEY SPECIALITIES</th>
+<tr height="150">
+	<th >
+		<img src="27.jpg" width="200" height="150">
+	</th>
+	<th>
+		<img src="25jpg.jpg" width="200">
+	</th>
+	<th>
+		<img src="26.png" width="200" height="150">
+	</th>
+	<th>
+		<img src="28.jpg" width="200" height="150">
+	</th>
+	<th>
+		<img src="29.png" width="200" height="150">
+	</th>
+	<th>
+		<img src="30.jpg" width="200" height="150">
+	</th>
+</tr>
+<tr height="50" style="font-size: 25px">
+	<th>Preventive heath care</th>
+	<th>Heart</th>
+	<th>Orthopedic</th>
+	<th>Robotic surgery</th>
+	<th>Neurology and Neurosurgery</th>
+	<th>Cancer and oncology</th>
+</tr>
+</table>
+<h3>
+	CONTACT US<br>
+	24X7 HELPLINE: +91-11-29871090/ 1091 <br>
+EMAIL: assistance@cityhospitalsdelhi.com <br>
+ADDRESS: ANANAD VIHAR, DELHI MATHURA ROAD, <br>
+NEW DELHI - 110076, INDIA <br>
+WEBSITE: www.cityhospitaldelhi.com<br> 
+FOR APPOINTMENT: +91-880099000<br>
+</h3>
+<hr color=black size=2>
+<h5>copyright &#169 2018cityhospital enterprises Ltd. All Rights reserved</h5>
+</body>
+</html>
