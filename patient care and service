@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title >patient care</title>
+	<style >
+		fieldset{
+			width: 60%;
+			height: 70%;
+			border: 3px solid black;
+			border-radius:20px;
+			box-shadow: 0 010px#666;
+			text-align: left;
+			display: inline-block;
+			vertical-align: middle; 
+			margin-left: 20px;
+            background-color: rgba(255,255,255,0.5);
+		}
+		legend{
+              font-size:20px;
+		}
+		#wrap{
+			width:100px;
+			height: 35px;
+			border:2px solid black;
+			font-size: 20px;
+			background-color: lightblue;
+			 margin-top:20px
+			}
+		#wrap1{
+			width:100px;
+			height: 35px;
+			font-size: 20px;
+			border: 2px solid black;
+			background-color:green;
+			 margin-top:20px
+		}	
+		
+	</style>
+</head>
+<body background="3.jpg" style="background-repeat:no-repeat;background-size: cover;">
+	<script>
+window.alert("Information is updated");
+
+</script>
+	<table width=100% height=100%>
+		<tr>
+			<td>
+	<form>
+		<fieldset> 
+			<legend>Personal details</legend>
+		<pre style="font-family: verdana;font-size: 15px">
+Registration Id:<input type="text" name="registration Id" placeholder="Registration id" required="required" ><br>
+     First name: <input type="text" name="First name" required="required" placeholder="first Name"><br>
+      Last name:<input type="text" name="Last name" required="required" placeholder="last Name"><br>
+         Gender: <select name="Gender"><br><br>
+	            <option value="male">Male</option>
+	            <option value="female">Female</option>
+	            <option value="other">Other</option>
+
+
+</select><br>
+   Blood Group: <select name="blood">
+                <option value="A+">A+</option> 
+                <option value="A-">A-</option> 
+                <option value="B+">B+</option> 
+                <option value="B-">B-</option> 
+                <option value="O+">O+</option> 
+                <option value="O-">O-</option> 
+                <option value="AB+">AB+</option> 
+                <option value="AB-">AB-</option> 
+            </select><br>
+   date of birth:<input type="date" name="date of birth"><br>
+     </pre>
+ </td>
+ <td>
+ 	</form>
+ 		<form>
+ 		<fieldset><br>
+ 			<legend>Contact Details</legend>
+ 	       <pre style="font-family: verdana;font-size: 15px">
+first mobile no.:   <input type="number" name="first mobile no" required="required" placeholder="first mobile number"><br>
+second mobile no:<input type="number" name="second mobile no." required="required" placeholder="second mobile number"><br>
+        Email Id:     <input type="email" name="Email id" required="required" placeholder="email id" ><br>
+         Address:
+         <textarea cols="30%" rows="5%">
+         	
+         </textarea>
+ 		</fieldset><br><br><br>
+ </td>
+</tr><tr>
+	<td><br><br>
+		<fieldset>
+			<legend>Department details</legend>
+			<pre  style="font-family: verdana;font-size: 15px">
+     Room no.:<input type="number" name="Room no" required="required" placeholder="room no."><br><br>
+Date of admit:<input type="date" name="date of admit" required="required"><br><br>
+Time of admit:<input type="time" name=" time of admit"><br><br>
+cosulting doctor:<input type="text" name="cosulted" placeholder="doctor's Name">
+	</td>
+ </fieldset>
+</form> 
+<td>
+	<form>
+		<fieldset>
+			<legend>Emergency Contact detail</legend>
+			<form><pre style="font-family: verdana;font-size: 15px">	
+	Person Name <input type="text" name="Person Name" required="required" placeholder="name"><br>
+	        Ph No.   <input type="number" name="ph no" required="required" placeholder="phone no"><br>
+          Relationship <input type="text" name="Relationship" readonly="Relationship" placeholder="Relationship"></pre>
+		</fieldset>
+	</form>
+</td>
+</tr>
+</table>
+<form>
+<center><button id="wrap1">Save</button><button id="wrap"><a href ="homepage2.html">Exit</button></center>
+</form>
+</body>
+</html>
