@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+
+	<title>homepage</title>
+<style>
+	#img{
+	width:40%;
+}
+table{
+    cursor:pointer;
+}
+button{
+     cursor:pointer;
+
+}
+</style>
+</head>
+<body bgcolor="#0099CC">
+<table width="800" height="200">
+	<tr>
+		<th><img src="9.png" width="30%"></th>
+		<th><img src="6.png" width="30%"></th>
+		<th><img src="doctor.png" width="30%"></th>
+		<th><img src="8.png" width="30%"></th>
+		<th><img src="7.png" width="30%"></th>
+	</tr>
+	<tr>
+		<th><button  onclick="window.location.href='about.html'" style="font-family:verdana;width:250px;height:60px;margin-right:20px"><b>ABOUT<b></button> </th>
+		<th><button onclick="window.location.href='patient care and service.html'" style="font-family:verdana;width:250px;height:60px;margin-right: 20px"><b>PATIENT CARE AND SERVICE</b></button>	</th>
+		<th><button onclick="window.location.href='specailists.html'" style="font-family:verdana;width:250px;height:60px;margin-right: 20px"><b>SPECIALISTS</b></button>	</th>
+        <th><button onclick="window.location.href='query2.html'" style="font-family:verdana;width:250px;height:60px;margin-right: 20px"><b>FEEDBACK AND QUERY</b></button></th>
+        <th><button  onclick="window.location.href='front2.html'"  style="font-family:verdana;width:250px;height:60px;margin-right: 20px"><b>LOGOUT</b></button></th>
+</tr>
+</table>
+		
+<hr width="100%" size="3" color="#0088aa">
+<h1 style="font-family: algerian"><marquee>The Highest Quality Healthcare.</marquee></h1>
+ <script type = "text/javascript">
+            function displayNextImage() {
+                x = (x === images.length - 1) ? 0 : x + 1;
+                document.getElementById("img").src = images[x];
+            }
+  
+            function displayPreviousImage() {
+                x = (x <= 0) ? images.length - 1 : x - 1;
+                document.getElementById("img").src = images[x];
+            }
+  
+            function startTimer() {
+                setInterval(displayNextImage, 3000);
+            }
+  
+            var images = [], x = -1;
+            images[0] = "12.jpg";
+            images[1] = "13.jpg";
+            images[2] = "14.jpg";
+            images[3] = "15.jpg";
+        </script>
+  
+     <body onload = "startTimer()">
+        <center><img id="img" src="startpicture.jpg" alt="city hospital"></center> 
+     <center><button type="button" onclick="displayPreviousImage()">Previous</button>
+        <button type="button" onclick="displayNextImage()">Next</button>
+</script>
+</body>
+</html>
